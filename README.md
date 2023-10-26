@@ -10,10 +10,14 @@ I denne oppgaven skal vi sette opp GitHub Actions på vårt GitHub-repo med kode
 ### 1. Opprettelse av GitHub Repository 
 
 Her har jeg da opprettet et nytt GitHub-repo og lagt inn filene/kodene fra Oblig 2. 
+<img width="893" alt="image" src="https://github.com/PrimeRime/testing_leap/assets/117373652/f92a5cc9-da51-4a98-affb-a63c675b0b2a">
+
 
 ### 2. Konfigurasjon av GitHub Actions
 
 * For å konfigurere GitHub Actions så lagde jeg først en .GitHub Directory og inni der en Workflows Dircetory.
+<img width="772" alt="image" src="https://github.com/PrimeRime/testing_leap/assets/117373652/5596081b-d8a0-4e8a-93bf-ad854814db55">
+
 * Deretter opprettet jeg en yml (python-app.yml) fil i GitHub som jeg da implementere inn i Repositoryet etterhvert under Workflows.
 ```
 name: Testing leap year
@@ -61,6 +65,9 @@ Til:
 ```
 name: Testing leap year
 ```
+* Her kan vi se at testene gikk gjennom:
+<img width="1118" alt="image" src="https://github.com/PrimeRime/testing_leap/assets/117373652/4d0a4dd3-ad5c-4203-913b-bb3ac6d36491">
+
 
 ### 4. Dokumentering av oppgaven
 
